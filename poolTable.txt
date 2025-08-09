@@ -1,0 +1,1119 @@
+
+------- Mesa de pool 
+
+# Tela verde
+
+POLYGON
+borders= 4
+x= -100, y= 10, z= 40
+x= -100, y= 10, z= -40
+x= 100, y= 10, z= -40
+x= 100, y= 10, z= 40
+R= 0.0
+G= 0.5
+B= 0.0
+Ka= 0.3
+Kd= 0.7
+Ks= 0.05
+Kn= 5
+Kr= 0.0
+
+#Borde interno largo cercano
+POLYGON
+borders= 4
+x= -100, y= 12.5, z= -40
+x= -100, y= 7.5, z= -40
+x= 100, y= 7.5, z= -40
+x= 100, y= 12.5, z= -40
+R= 0.3
+G= 0.15
+B= 0.05
+Ka= 0.3
+Kd= 0.6
+Ks= 0.15
+Kn= 15
+Kr= 0.0
+
+#Borde interno largo lejano
+POLYGON
+borders= 4
+x= -100, y= 12.5, z= 40
+x= -100, y= 7.5, z= 40
+x= 100, y= 7.5, z= 40
+x= 100, y= 12.5, z= 40
+R= 0.3
+G= 0.15
+B= 0.05
+Ka= 0.3
+Kd= 0.6
+Ks= 0.15
+Kn= 15
+Kr= 0.0
+
+#Borde interno corto izquierda
+POLYGON
+borders= 4
+x= 100, y= 12.5, z= 40
+x= 100, y= 7.5, z= 40
+x= 100, y= 7.5, z= -40
+x= 100, y= 12.5, z= -40
+R= 0.3
+G= 0.15
+B= 0.05
+Ka= 0.3
+Kd= 0.6
+Ks= 0.15
+Kn= 15
+Kr= 0.0
+
+#Borde interno corto derecha
+POLYGON
+borders= 4
+x= -100, y= 12.5, z= 40
+x= -100, y= 7.5, z= 40
+x= -100, y= 7.5, z= -40
+x= -100, y= 12.5, z= -40
+R= 0.3
+G= 0.15
+B= 0.05
+Ka= 0.3
+Kd= 0.6
+Ks= 0.15
+Kn= 15
+Kr= 0.0
+
+#Borde externo largo cercano
+POLYGON
+borders= 4
+x= -110, y= 12.5, z= -43
+x= -110, y= 7.5, z= -43
+x= 110, y= 7.5, z= -43
+x= 110, y= 12.5, z= -43
+R= 0.3
+G= 0.15
+B= 0.05
+Ka= 0.3
+Kd= 0.6
+Ks= 0.15
+Kn= 15
+Kr= 0.0
+
+#Borde externo largo lejano
+POLYGON
+borders= 4
+x= -110, y= 12.5, z= 43
+x= -110, y= 7.5, z= 43
+x= 110, y= 7.5, z= 43
+x= 110, y= 12.5, z= 43
+R= 0.3
+G= 0.15
+B= 0.05
+Ka= 0.3
+Kd= 0.6
+Ks= 0.15
+Kn= 15
+Kr= 0.0
+
+#Borde externo corto izquierda
+POLYGON
+borders= 4
+x= 110, y= 12.5, z= 43
+x= 110, y= 7.5, z= 43
+x= 110, y= 7.5, z= -43
+x= 110, y= 12.5, z= -43
+R= 0.3
+G= 0.15
+B= 0.05
+Ka= 0.3
+Kd= 0.6
+Ks= 0.15
+Kn= 15
+Kr= 0.0
+
+#Borde externo corto derecha
+POLYGON
+borders= 4
+x= -110, y= 12.5, z= 43
+x= -110, y= 7.5, z= 43
+x= -110, y= 7.5, z= -43
+x= -110, y= 12.5, z= -43
+R= 0.3
+G= 0.15
+B= 0.05
+Ka= 0.3
+Kd= 0.6
+Ks= 0.15
+Kn= 15
+Kr= 0.0
+
+#Sobre del borde largo cercano
+POLYGON
+borders= 4
+x= -110, y= 12.5, z= -40
+x= -110, y= 12.5, z= -43
+x= 110, y= 12.5, z= -43
+x= 110, y= 12.5, z= -40
+R= 0.3
+G= 0.15
+B= 0.05
+Ka= 0.3
+Kd= 0.6
+Ks= 0.15
+Kn= 15
+Kr= 0.0
+
+#Sobre del borde largo lejano
+POLYGON
+borders= 4
+x= -110, y= 12.5, z= 43
+x= -110, y= 12.5, z= 40
+x= 110, y= 12.5, z= 40
+x= 110, y= 12.5, z= 43
+R= 0.3
+G= 0.15
+B= 0.05
+Ka= 0.3
+Kd= 0.6
+Ks= 0.15
+Kn= 15
+Kr= 0.0
+
+#Sobre del borde corto izquierda
+POLYGON
+borders= 4
+x= -100, y= 12.5, z= 43
+x= -110, y= 12.5, z= 43
+x= -110, y= 12.5, z= -43
+x= -100, y= 12.5, z= -43
+R= 0.3
+G= 0.15
+B= 0.05
+Ka= 0.3
+Kd= 0.6
+Ks= 0.15
+Kn= 15
+Kr= 0.0
+
+#Sobre del borde corto derecha
+POLYGON
+borders= 4
+x= 110, y= 12.5, z= 43
+x= 100, y= 12.5, z= 43
+x= 100, y= 12.5, z= -43
+x= 110, y= 12.5, z= -43
+R= 0.3
+G= 0.15
+B= 0.05
+Ka= 0.3
+Kd= 0.6
+Ks= 0.15
+Kn= 15
+Kr= 0.0
+
+#Soporte de mesa borde largo cercano
+POLYGON
+borders= 4
+x= -100, y= 10, z= -40
+x= -100, y= -20, z= -40
+x= 100, y= -20, z= -40
+x= 100, y= 10, z= -40
+R= 0.3
+G= 0.15
+B= 0.05
+Ka= 0.3
+Kd= 0.6
+Ks= 0.15
+Kn= 15
+Kr= 0.0
+
+#Soporte de mesa borde largo lejano
+POLYGON
+borders= 4
+x= -100, y= 10, z= 40
+x= -100, y= -20, z= 40
+x= 100, y= -20, z= 40
+x= 100, y= 10, z= 40
+R= 0.3
+G= 0.15
+B= 0.05
+Ka= 0.3
+Kd= 0.6
+Ks= 0.15
+Kn= 15
+Kr= 0.0
+
+#Soporte de mesa borde corto izquierda
+POLYGON
+borders= 4
+x= -100, y= 10, z= 40
+x= -100, y= -20, z= 40
+x= -100, y= 10, z= -40
+x= -100, y= -20, z= -40
+R= 0.3
+G= 0.15
+B= 0.05
+Ka= 0.3
+Kd= 0.6
+Ks= 0.15
+Kn= 15
+Kr= 0.0
+
+#Soporte de mesa borde corto derecha
+POLYGON
+borders= 4
+x= 100, y= 10, z= 40
+x= 100, y= -20, z= 40
+x= 100, y= 10, z= -40
+x= 100, y= -20, z= -40
+R= 0.3
+G= 0.15
+B= 0.05
+Ka= 0.3
+Kd= 0.6
+Ks= 0.15
+Kn= 15
+Kr= 0.0
+
+#Base del soporte de la mesa
+POLYGON
+borders= 4
+x= -100, y= -20, z= 40
+x= -100, y= -20, z= -40
+x= 100, y= -20, z= -40
+x= 100, y= -20, z= 40
+R= 0.3
+G= 0.15
+B= 0.05
+Ka= 0.3
+Kd= 0.6
+Ks= 0.15
+Kn= 15
+Kr= 0.0
+
+
+------------ Bolas de pool
+
+SPHERE
+xc= 0
+yc= 12
+zc= 0
+r= 2
+R= 1.0
+G= 0.0
+B= 0.0
+Ka= 0.2
+Kd= 0.6
+Ks= 0.3
+Kn= 20
+Kr= 0.2
+
+SPHERE
+xc= -50
+yc= 12
+zc= 0
+r= 2
+R= 0.0
+G= 1.0
+B= 0.0
+Ka= 0.2
+Kd= 0.6
+Ks= 0.3
+Kn= 20
+Kr= 0.2
+
+SPHERE
+xc= 50
+yc= 12
+zc= 20
+r= 2
+R= 0.0
+G= 0.0
+B= 1.0
+Ka= 0.2
+Kd= 0.6
+Ks= 0.3
+Kn= 20
+Kr= 0.2
+
+SPHERE
+xc= 80
+yc= 12
+zc= -20
+r= 2
+R= 1.0
+G= 1.0
+B= 1.0
+Ka= 0.2
+Kd= 0.6
+Ks= 0.3
+Kn= 20
+Kr= 0.2
+
+------------------ Lamparas
+
+
+--------- Lámpara 1 ---------
+
+SPHERE
+xc= 0
+yc= 65
+zc= 0
+r= 4
+R= 1.0
+G= 1.0
+B= 1.0
+Ka= 0.2
+Kd= 0.6
+Ks= 0.3
+Kn= 20
+Kr= 0.2
+
+LIGHT
+x= 0
+y= 60
+z= 0
+Ip= 0.3
+
+POLYGON
+borders= 3
+x= 0, y= 85, z= 0
+x= -12, y= 65, z= -12
+x= 12, y= 65, z= -12
+R= 0.0
+G= 0.5
+B= 0.0
+Ka= 0.3
+Kd= 0.5
+Ks= 0.2
+Kn= 20
+Kr= 0.0
+
+POLYGON
+borders= 3
+x= 0, y= 85, z= 0
+x= 12, y= 65, z= -12
+x= 12, y= 65, z= 12
+R= 0.0
+G= 0.5
+B= 0.0
+Ka= 0.3
+Kd= 0.5
+Ks= 0.2
+Kn= 20
+Kr= 0.0
+
+POLYGON
+borders= 3
+x= 0, y= 85, z= 0
+x= 12, y= 65, z= 12
+x= -12, y= 65, z= 12
+R= 0.0
+G= 0.5
+B= 0.0
+Ka= 0.3
+Kd= 0.5
+Ks= 0.2
+Kn= 20
+Kr= 0.0
+
+POLYGON
+borders= 3
+x= 0, y= 85, z= 0
+x= -12, y= 65, z= 12
+x= -12, y= 65, z= -12
+R= 0.0
+G= 0.5
+B= 0.0
+Ka= 0.3
+Kd= 0.5
+Ks= 0.2
+Kn= 20
+Kr= 0.0
+
+--------- Lámpara 2 ---------
+
+SPHERE
+xc= -60
+yc= 65
+zc= 0
+r= 4
+R= 1.0
+G= 1.0
+B= 1.0
+Ka= 0.2
+Kd= 0.6
+Ks= 0.3
+Kn= 20
+Kr= 0.2
+
+LIGHT
+x= -60
+y= 60
+z= 0
+Ip= 0.3
+
+POLYGON
+borders= 3
+x= -60, y= 85, z= 0
+x= -72, y= 65, z= -12
+x= -48, y= 65, z= -12
+R= 0.0
+G= 0.5
+B= 0.0
+Ka= 0.3
+Kd= 0.5
+Ks= 0.2
+Kn= 20
+Kr= 0.0
+
+POLYGON
+borders= 3
+x= -60, y= 85, z= 0
+x= -48, y= 65, z= -12
+x= -48, y= 65, z= 12
+R= 0.0
+G= 0.5
+B= 0.0
+Ka= 0.3
+Kd= 0.5
+Ks= 0.2
+Kn= 20
+Kr= 0.0
+
+POLYGON
+borders= 3
+x= -60, y= 85, z= 0
+x= -48, y= 65, z= 12
+x= -72, y= 65, z= 12
+R= 0.0
+G= 0.5
+B= 0.0
+Ka= 0.3
+Kd= 0.5
+Ks= 0.2
+Kn= 20
+Kr= 0.0
+
+POLYGON
+borders= 3
+x= -60, y= 85, z= 0
+x= -72, y= 65, z= 12
+x= -72, y= 65, z= -12
+R= 0.0
+G= 0.5
+B= 0.0
+Ka= 0.3
+Kd= 0.5
+Ks= 0.2
+Kn= 20
+Kr= 0.0
+
+--------- Lámpara 3 ---------
+
+SPHERE
+xc= 60
+yc= 65
+zc= 0
+r= 4
+R= 1.0
+G= 1.0
+B= 1.0
+Ka= 0.2
+Kd= 0.6
+Ks= 0.3
+Kn= 20
+Kr= 0.2
+
+LIGHT
+x= 60
+y= 60
+z= 0
+Ip= 0.3
+
+POLYGON
+borders= 3
+x= 60, y= 85, z= 0
+x= 48, y= 65, z= -12
+x= 72, y= 65, z= -12
+R= 0.0
+G= 0.5
+B= 0.0
+Ka= 0.3
+Kd= 0.5
+Ks= 0.2
+Kn= 20
+Kr= 0.0
+
+POLYGON
+borders= 3
+x= 60, y= 85, z= 0
+x= 72, y= 65, z= -12
+x= 72, y= 65, z= 12
+R= 0.0
+G= 0.5
+B= 0.0
+Ka= 0.3
+Kd= 0.5
+Ks= 0.2
+Kn= 20
+Kr= 0.0
+
+POLYGON
+borders= 3
+x= 60, y= 85, z= 0
+x= 72, y= 65, z= 12
+x= 48, y= 65, z= 12
+R= 0.0
+G= 0.5
+B= 0.0
+Ka= 0.3
+Kd= 0.5
+Ks= 0.2
+Kn= 20
+Kr= 0.0
+
+POLYGON
+borders= 3
+x= 60, y= 85, z= 0
+x= 48, y= 65, z= 12
+x= 48, y= 65, z= -12
+R= 0.0
+G= 0.5
+B= 0.0
+Ka= 0.3
+Kd= 0.5
+Ks= 0.2
+Kn= 20
+Kr= 0.0
+
+
+
+----------- Piso, Techo y paredes
+
+# Piso
+
+POLYGON
+borders= 4
+x= -200, y= -20, z= 200
+x= -200, y= -20, z= -200
+x= 200, y= -20, z= -200
+x= 200, y= -20, z= 200
+R= 0.502
+G= 0.0
+B= 0.125
+Ka= 0.2
+Kd= 0.7
+Ks= 0.05
+Kn= 5
+Kr= 0.0
+
+
+# Pared derecha
+
+POLYGON
+borders= 4
+x= 200, y= 150, z= 200
+x= 200, y= -20, z= 200
+x= 200, y= -20, z= -200
+x= 200, y= 150, z= -200
+R= 0.961
+G= 0.953
+B= 0.616
+Ka= 0.3
+Kd= 0.6
+Ks= 0.1
+Kn= 10
+Kr= 0.0
+
+
+# Pared izquierda
+
+POLYGON
+borders= 4
+x= -200, y= 150, z= -200
+x= -200, y= -20, z= -200
+x= -200, y= -20, z= 200
+x= -200, y= 150, z= 200
+R= 0.961
+G= 0.953
+B= 0.616
+Ka= 0.3
+Kd= 0.6
+Ks= 0.1
+Kn= 10
+Kr= 0.0
+
+
+# Pared del fondo
+
+POLYGON
+borders= 4
+x= -200, y= 150, z= 200
+x= -200, y= -20, z= 200
+x= 200, y= -20, z= 200
+x= 200, y= 150, z= 200
+R= 0.961
+G= 0.953
+B= 0.616
+Ka= 0.3
+Kd= 0.6
+Ks= 0.1
+Kn= 10
+Kr= 0.0
+
+
+# Pared de atras
+
+POLYGON
+borders= 4
+x= -200, y= 150, z= -210
+x= -200, y= -20, z= -210
+x= 200, y= -20, z= -210
+x= 200, y= 150, z= -210
+R= 0.961
+G= 0.953
+B= 0.616
+Ka= 0.3
+Kd= 0.6
+Ks= 0.1
+Kn= 10
+Kr= 0.0
+
+
+
+# Techo  
+
+POLYGON
+borders= 3
+x= -200, y= 150, z= 200   
+x= -200, y= 150, z= -200   
+x= 0, y= 180, z= 0        
+R= 0.961
+G= 0.953
+B= 0.616
+Ka= 0.3
+Kd= 0.5
+Ks= 0.2
+Kn= 20
+Kr= 0.0
+
+POLYGON
+borders= 3
+x= -200, y= 150, z= -200   
+x= 200, y= 150, z= -200    
+x= 0, y= 180, z= 0       
+R= 0.961
+G= 0.953
+B= 0.616
+Ka= 0.3
+Kd= 0.5
+Ks= 0.2
+Kn= 20
+Kr= 0.0
+
+POLYGON
+borders= 3
+x= 200, y= 150, z= -200   
+x= 200, y= 150, z= 200     
+x= 0, y= 180, z= 0        
+R= 0.961
+G= 0.953
+B= 0.616
+Ka= 0.3
+Kd= 0.5
+Ks= 0.2
+Kn= 20
+Kr= 0.0
+
+POLYGON
+borders= 3
+x= 200, y= 150, z= 200    
+x= -200, y= 150, z= 200    
+x= 0, y= 180, z= 0        
+R= 0.961
+G= 0.953
+B= 0.616
+Ka= 0.3
+Kd= 0.5
+Ks= 0.2
+Kn= 20
+Kr= 0.0
+
+
+---------- Detalles
+
+
+# Marco del Espejo
+
+POLYGON
+borders= 4
+x= -95, y= 80, z= 101
+x= -95, y= 5, z= 101
+x= 95, y= 5, z= 101
+x= 95, y= 80, z= 101
+R= 0.341
+G= 0.255
+B= 0.165
+Ka= 0.3
+Kd= 0.5
+Ks= 0.2
+Kn= 40
+Kr= 0.0
+
+# Espejo
+
+POLYGON
+borders= 4
+x= -90, y= 75, z= 100
+x= -90, y= 10, z= 100
+x= 90, y= 10, z= 100
+x= 90, y= 75, z= 100
+R= 0.71
+G= 0.71
+B= 0.71
+Ka= 0.3
+Kd= 0.5
+Ks= 0.2
+Kn= 40
+Kr= 1.0
+
+
+# Barra de la Lámpara 1
+
+POLYGON
+borders= 4
+x= -0.5, y= 85, z= -0.5
+x= 0.5, y= 85, z= -0.5
+x= 0.5, y= 190, z= -0.5
+x= -0.5, y= 190, z= -0.5
+R= 0.3
+G= 0.3
+B= 0.3
+Ka= 0.2
+Kd= 0.5
+Ks= 0.1
+Kn= 10
+Kr= 0.0
+
+POLYGON
+borders= 4
+x= 0.5, y= 85, z= -0.5
+x= 0.5, y= 85, z= 0.5
+x= 0.5, y= 190, z= 0.5
+x= 0.5, y= 190, z= -0.5
+R= 0.3
+G= 0.3
+B= 0.3
+Ka= 0.2
+Kd= 0.5
+Ks= 0.1
+Kn= 10
+Kr= 0.0
+
+POLYGON
+borders= 4
+x= 0.5, y= 85, z= 0.5
+x= -0.5, y= 85, z= 0.5
+x= -0.5, y= 190, z= 0.5
+x= 0.5, y= 190, z= 0.5
+R= 0.3
+G= 0.3
+B= 0.3
+Ka= 0.2
+Kd= 0.5
+Ks= 0.1
+Kn= 10
+Kr= 0.0
+
+POLYGON
+borders= 4
+x= -0.5, y= 85, z= 0.5
+x= -0.5, y= 85, z= -0.5
+x= -0.5, y= 190, z= -0.5
+x= -0.5, y= 190, z= 0.5
+R= 0.3
+G= 0.3
+B= 0.3
+Ka= 0.2
+Kd= 0.5
+Ks= 0.1
+Kn= 10
+Kr= 0.0
+
+# Barra de la Lámpara 2
+
+POLYGON
+borders= 4
+x= -60.5, y= 85, z= -0.5
+x= -59.5, y= 85, z= -0.5
+x= -59.5, y= 190, z= -0.5
+x= -60.5, y= 190, z= -0.5
+R= 0.3
+G= 0.3
+B= 0.3
+Ka= 0.2
+Kd= 0.5
+Ks= 0.1
+Kn= 10
+Kr= 0.0
+
+POLYGON
+borders= 4
+x= -59.5, y= 85, z= -0.5
+x= -59.5, y= 85, z= 0.5
+x= -59.5, y= 190, z= 0.5
+x= -59.5, y= 190, z= -0.5
+R= 0.3
+G= 0.3
+B= 0.3
+Ka= 0.2
+Kd= 0.5
+Ks= 0.1
+Kn= 10
+Kr= 0.0
+
+POLYGON
+borders= 4
+x= -59.5, y= 85, z= 0.5
+x= -60.5, y= 85, z= 0.5
+x= -60.5, y= 190, z= 0.5
+x= -59.5, y= 190, z= 0.5
+R= 0.3
+G= 0.3
+B= 0.3
+Ka= 0.2
+Kd= 0.5
+Ks= 0.1
+Kn= 10
+Kr= 0.0
+
+POLYGON
+borders= 4
+x= -60.5, y= 85, z= 0.5
+x= -60.5, y= 85, z= -0.5
+x= -60.5, y= 190, z= -0.5
+x= -60.5, y= 190, z= 0.5
+R= 0.3
+G= 0.3
+B= 0.3
+Ka= 0.2
+Kd= 0.5
+Ks= 0.1
+Kn= 10
+Kr= 0.0
+
+# Barra de la Lámpara 3
+
+POLYGON
+borders= 4
+x= 59.5, y= 85, z= -0.5
+x= 60.5, y= 85, z= -0.5
+x= 60.5, y= 190, z= -0.5
+x= 59.5, y= 190, z= -0.5
+R= 0.3
+G= 0.3
+B= 0.3
+Ka= 0.2
+Kd= 0.5
+Ks= 0.1
+Kn= 10
+Kr= 0.0
+
+POLYGON
+borders= 4
+x= 60.5, y= 85, z= -0.5
+x= 60.5, y= 85, z= 0.5
+x= 60.5, y= 190, z= 0.5
+x= 60.5, y= 190, z= -0.5
+R= 0.3
+G= 0.3
+B= 0.3
+Ka= 0.2
+Kd= 0.5
+Ks= 0.1
+Kn= 10
+Kr= 0.0
+
+POLYGON
+borders= 4
+x= 60.5, y= 85, z= 0.5
+x= 59.5, y= 85, z= 0.5
+x= 59.5, y= 190, z= 0.5
+x= 60.5, y= 190, z= 0.5
+R= 0.3
+G= 0.3
+B= 0.3
+Ka= 0.2
+Kd= 0.5
+Ks= 0.1
+Kn= 10
+Kr= 0.0
+
+POLYGON
+borders= 4
+x= 59.5, y= 85, z= 0.5
+x= 59.5, y= 85, z= -0.5
+x= 59.5, y= 190, z= -0.5
+x= 59.5, y= 190, z= 0.5
+R= 0.3
+G= 0.3
+B= 0.3
+Ka= 0.2
+Kd= 0.5
+Ks= 0.1
+Kn= 10
+Kr= 0.0
+
+
+
+
+----------- Palo -----------
+
+POLYGON
+borders= 4
+x= -110.4828, y= 14.6, z= -59.1221
+x= -109.5172, y= 14.6, z= -60.8779
+x= 90.4828, y= 14.6, z= 49.1221
+x= 89.5172, y= 14.6, z= 50.8779
+R= 0.65
+G= 0.50
+B= 0.39
+Ka= 0.3
+Kd= 0.6
+Ks= 0.2
+Kn= 20
+Kr= 0.0
+
+POLYGON
+borders= 4
+x= -109.5172, y= 14.6, z= -60.8779
+x= -109.5172, y= 12.6, z= -60.8779
+x= 90.4828, y= 12.6, z= 49.1221
+x= 90.4828, y= 14.6, z= 49.1221
+R= 0.65
+G= 0.50
+B= 0.39
+Ka= 0.3
+Kd= 0.6
+Ks= 0.2
+Kn= 20
+Kr= 0.0
+
+POLYGON
+borders= 4
+x= -109.5172, y= 12.6, z= -60.8779
+x= -110.4828, y= 12.6, z= -59.1221
+x= 89.5172, y= 12.6, z= 50.8779
+x= 90.4828, y= 12.6, z= 49.1221
+R= 0.65
+G= 0.50
+B= 0.39
+Ka= 0.3
+Kd= 0.6
+Ks= 0.2
+Kn= 20
+Kr= 0.0
+
+POLYGON
+borders= 4
+x= -110.4828, y= 12.6, z= -59.1221
+x= -110.4828, y= 14.6, z= -59.1221
+x= 89.5172, y= 14.6, z= 50.8779
+x= 89.5172, y= 12.6, z= 50.8779
+R= 0.65
+G= 0.50
+B= 0.39
+Ka= 0.3
+Kd= 0.6
+Ks= 0.2
+Kn= 20
+Kr= 0.0
+
+POLYGON
+borders= 4
+x= -110.4828, y= 14.6, z= -59.1221
+x= -109.5172, y= 14.6, z= -60.8779
+x= 90.4828, y= 14.6, z= 49.1221
+x= 89.5172, y= 14.6, z= 50.8779
+R= 0.65
+G= 0.50
+B= 0.39
+Ka= 0.3
+Kd= 0.6
+Ks= 0.2
+Kn= 20
+Kr= 0.0
+
+POLYGON
+borders= 4
+x= -110.4828, y= 12.6, z= -59.1221
+x= -109.5172, y= 12.6, z= -60.8779
+x= 90.4828, y= 12.6, z= 49.1221
+x= 89.5172, y= 12.6, z= 50.8779
+R= 0.65
+G= 0.50
+B= 0.39
+Ka= 0.3
+Kd= 0.6
+Ks= 0.2
+Kn= 20
+Kr= 0.0
+
+----------- mas bolas de pool -----------
+
+SPHERE
+xc= -70
+yc= 12
+zc= 30
+r= 2
+R= 1.0
+G= 0.843
+B= 0.0
+Ka= 0.2
+Kd= 0.6
+Ks= 0.3
+Kn= 20
+Kr= 0.2
+
+SPHERE
+xc= 30
+yc= 12
+zc= -30
+r= 2
+R= 0.0
+G= 0.5
+B= 0.5
+Ka= 0.2
+Kd= 0.6
+Ks= 0.3
+Kn= 20
+Kr= 0.2
+
+SPHERE
+xc= -30
+yc= 12
+zc= -20
+r= 2
+R= 0.5
+G= 0.0
+B= 0.5
+Ka= 0.2
+Kd= 0.6
+Ks= 0.3
+Kn= 20
+Kr= 0.2
+
+SPHERE
+xc= 0
+yc= 12
+zc= 30
+r= 2
+R= 0.5
+G= 0.5
+B= 0.0
+Ka= 0.2
+Kd= 0.6
+Ks= 0.3
+Kn= 20
+Kr= 0.2
+

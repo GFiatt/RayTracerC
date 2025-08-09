@@ -1,0 +1,34 @@
+LIGHT
+x= x coordenate
+y= y coordenate
+z= z coordenate
+Ip= light intensity
+
+SPHERE
+xc= center of the sphere x coordenate
+yc= center of the sphere y coordenate
+zc= center of the sphere z coordenate
+r= radius
+R= Red value of RGB color
+G= Green value of RGB color
+B= Blue value of RGB color
+Ka= Ambient Reflectance Coefficient
+Kd= Diffuse Reflectance Coefficient
+Ks= Specular Reflectance Coefficient
+Kn= Shinniness Coefficient
+Kr= Reflection Coefficient
+
+POLYGON
+borders= number of borders (3 or more)
+x= , y= , z=
+x= , y= , z=
+x= , y= , z=
+x= , y= , z=
+R= Red value of RGB color
+G= Green value of RGB color
+B= Blue value of RGB color
+Ka= Ambient Reflectance Coefficient
+Kd= Diffuse Reflectance Coefficient
+Ks= Specular Reflectance Coefficient
+Kn= Shinniness Coefficient
+Kr= Reflection Coefficient
