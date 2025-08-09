@@ -108,7 +108,7 @@ Kr= <reflection>
 
 Run:
 ```
-./PR04 assets/poolTable.txt
+./PR04 poolTable.txt
 ```
 
 ---
